@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddReminder"
+    android:background="@color/background">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/merahBata"
+        android:id="@+id/toolbar_add"
+        app:title=""
+        >
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add Reminder"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Insurance Category"
+        android:textSize="16sp"
+        android:textColor="@color/hitam"
+        android:fontFamily="sans-serif"
+        android:id="@+id/text_select"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/selectinsu"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp">
+
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add reminder details"
+        android:textColor="@color/hitam"
+        android:textSize="16sp"
+        android:id="@+id/text_add"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/spinnerAdd"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total premi"
+        android:textSize="14sp"
+        android:textColor="#828282"
+        android:fontFamily="sans-serif"
+        android:id="@+id/text_total"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_account_balance_wallet_black_24dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_total"
+        android:focusable="true"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerAdd"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_total" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="14sp"
+        android:textColor="#828282"
+        android:fontFamily="sans-serif"
+        android:id="@+id/text_date"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/edit_date"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:gravity="bottom"
+        android:clickable="true"
+        android:background="@drawable/tv_addreminder_input"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:paddingTop="4dp"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:textColor="#828282"
+        android:id="@+id/text_time"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_notifications_black_24dp"
+        android:drawablePadding="10dp"
+        />
+    <TextView
+        android:id="@+id/edit_time"
+        android:layout_width="289dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:gravity="bottom"
+        android:textColor="#000000"
+        android:clickable="true"
+        android:background="@drawable/tv_addreminder_input"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add note"
+        android:textSize="14sp"
+        android:textColor="#828282"
+        android:fontFamily="sans-serif"
+        android:id="@+id/text_note"
+        android:paddingTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/ic_comment_black_24dp"
+        android:drawablePadding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_note"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:inputType="none"
+        android:layout_marginLeft="60dp"
+        android:maxLength="100"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set as monthly remember"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle"/>
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Save"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/merahBata"/>
+
+
+</LinearLayout>
+</ScrollView>

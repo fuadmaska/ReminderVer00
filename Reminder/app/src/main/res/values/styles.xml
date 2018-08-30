@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/hitam</item>
+        <item name="colorAccent">@color/merahBata</item>
+    </style>
+    <style name="TextInputLayoutHintText">
+        <item name="android:textColor">@color/abuabu</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AppCompat.Tab.Text" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

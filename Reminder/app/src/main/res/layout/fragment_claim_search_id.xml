@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/claiminside"
+    tools:context=".Fragment.ClaimSearchIdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@color/putih"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:fontFamily="@font/roboto_regular"
+            android:id="@+id/edt_inputclaimid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_box_claim"
+            android:hint="@string/inputclaimid"
+            android:padding="10dp"
+            android:textColorHint="@color/abuabu" />
+
+
+        <Button
+            android:fontFamily="@font/roboto_regular"
+            android:id="@+id/btncheckclaim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/round_button"
+            android:text="@string/checkstatus"
+            android:textAllCaps="false"
+            android:textColor="@color/putih" />
+    </LinearLayout>
+
+
+</FrameLayout>

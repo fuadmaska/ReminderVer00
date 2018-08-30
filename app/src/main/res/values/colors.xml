@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#434142</color>
+    <color name="abuabu">#757575</color>
+    <color name="hitam">#000000</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="crimson">#B71C1C</color>
+    <color name="redone">#F44336</color>
+    <color name="blueone">#1976D2</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="silver">#828282</color>
+    <color name="darkGrey">#a9a9a9</color>
+    <color name="merahBata">#b71c1c</color>
+    <color name="background">#f2f2f2</color>
+    <color name="tulisan">#828282</color>
+    <color name="textcolor">#BDBDBD</color>
+    <color name="claiminside">#E5E5E5</color>
+    <color name="claimnumbertext">#828282</color>
+</resources>

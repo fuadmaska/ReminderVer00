@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MyFeature</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reminder">Reminder</string>
+    <string name="nothing">There\'s nothing to remind</string>
+    <string name="setreminder">Create Remind List?</string>
+    <string name="addnewreminder">Add new reminder</string>
+    <string name="home">Home</string>
+    <string name="havent">You haven\'t any insurance</string>
+    <string name="register">Register to insurance</string>
+    <string name="live">for live better</string>
+    <string name="addreminhead">Add Reminder</string>
+    <string name="select">Select Insurance Category</string>
+    <string name="inputdate">DD/MM/YYYY</string>
+    <string name="titleselectin">Select Insurance Category</string>
+    <string name="titlrmndrdtl">Add Reminder Detail</string>
+    <string name="totprem">Total Premi</string>
+    <string name="dateprem">Date</string>
+    <string name="timeprem">Time</string>
+    <string name="addnote">Add Note</string>
+    <string name="setasmon">Set as monthly reminder</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="delete1"><b>\t\t\t\t\t\t\t Hold On!</b></string>
+    <string name="claim">Claim Report</string>
+    <string name="inputclaimid">Please input your claim ID</string>
+    <string name="checkstatus">Check Status</string>
+    <string name="claimnumber">Claim Number</string>
+    <string name="numberclaim">1234567890</string>
+    <string name="btnhistoryclaim">On Process</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">WELCOME</string>
+    <string name="password">Password</string>
+    <string name="emailaddress">Email address</string>
+    <string name="forgotpasslog">Forgot password?</string>
+    <string name="btnlog">LOG IN</string>
+    <string name="claimstatus">Claim Status</string>
+    <string name="whoops">Whoops! can\'t find your ID</string>
+    <string name="checkyourid">Please check your claim ID and try again</string>
+    <string name="tryaga">Try Again</string>
+</resources>
